@@ -39,6 +39,7 @@ const deleteMe = (user) => {
  var referencePath = `/comments/${user}/`;
  console.log('ref path is',referencePath);
  console.log("saksham_clone inside dev");
+  console.log("one more change");
  var userReference = firebase.database().ref(referencePath);
   console.log('userReference path is',userReference);
 
