@@ -12,6 +12,7 @@ import { useStateValue } from './StateProvider';
 function Login() {
    
     const [state,dispatch]=useStateValue();
+    console.log('checking in gitHub v3 transfer data');
     console.log('v3 transfer data');
     const signIn=()=>{
         console.log('Login state is ', state);
