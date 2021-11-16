@@ -3,8 +3,8 @@ import React from 'react';
 import { auth, provider } from './firebase';
 import './Login.css';
 import { actionTypes } from './reducer';
-import { useStateValue } from './StateProvider';
 import image from './saksham.jpg';
+import { useStateValue } from './StateProvider';
 
 
 
@@ -12,7 +12,7 @@ import image from './saksham.jpg';
 function Login() {
    
     const [state,dispatch]=useStateValue();
-    
+    console.log('v3 transfer data');
     const signIn=()=>{
         console.log('Login state is ', state);
      // console.log(auth,provider)
