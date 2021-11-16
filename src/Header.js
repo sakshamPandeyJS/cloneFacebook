@@ -17,6 +17,7 @@ import { useStateValue } from './StateProvider';
 
 
 function Header() {
+    console.log('lets take this to main from saksham_clone');
     const [{user}]=useStateValue()
     return (
         <div className="header">
